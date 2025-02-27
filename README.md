@@ -1,6 +1,5 @@
-# Meet Vora
-
 Mobile Application Developer
+Android | iOS | KMP
 Ottawa, ON | meetvora1994@gmail.com
 [Portfolio](https://meetvora1994.github.io/) | [LinkedIn](https://www.linkedin.com/in/meetvora1994/) | [GitHub](https://github.com/meetVora1994) | [StackOverflow](https://stackoverflow.com/users/5373110/meet-vora) | [Medium](https://medium.com/@meetvora1994)
 
@@ -16,6 +15,7 @@ Ottawa, ON | meetvora1994@gmail.com
     [*Orbcomm*](https://www.orbcomm.com/) | 2021 - Present
     
     - Led development of Android (Kotlin) and iOS (SwiftUI) apps for BLE device data transfer.
+    - Spearheading a Kotlin Multiplatform (KMP) project to unify business logic across Android and iOS, enhancing maintainability and efficiency.
     - Managed and mentored a team, ensuring adherence to best practices and high code quality.
     - Conducted code reviews and enforced coding standards using GitLab.
     - Coordinated cross-functional efforts, including hardware team integration.
@@ -66,7 +66,7 @@ Ottawa, ON | meetvora1994@gmail.com
 
 ### Technical Skills
 
-- **Programming Languages**: Kotlin, Java, Swift
+- **Programming Languages**: Kotlin (including Kotlin Multiplatform - KMP), Java, Swift
 - **Development Tools**: Android Studio, Xcode
 - **Testing Frameworks**: JUnit, Espresso, XCTest
 - **Version Control Tools**: Git, Git-flow
@@ -76,11 +76,12 @@ Ottawa, ON | meetvora1994@gmail.com
 ### Projects
 
 - **ORBCOMM Field Support Tool** | *Orbcomm* | [Play Store](https://play.google.com/store/apps/details?id=com.orbcomm.iot.mobile.fst) | [App Store](https://apps.apple.com/ca/app/orbcomm-field-support-tool/id1469609179)
-    - Developed native Android and iOS apps using MVVM architecture for BLE device setup and configuration.
-    - Integrated Google Maps API and REST API for enhanced functionality.
-    - Implemented robust error handling and data synchronization features.
-    - Collaborated with UX/UI designers for an intuitive user experience.
-    - Optimized app performance for speed and reliability.
+    - Led the transition of the app to **Kotlin Multiplatform (KMP)** to unify business logic across Android and iOS, improving maintainability and code efficiency.
+    - Originally developed native Android and iOS apps using **MVVM architecture** for BLE device setup and configuration.
+    - Integrated **Google Maps API** and **REST API** for enhanced functionality.
+    - Implemented robust **error handling** and **data synchronization** features.
+    - Collaborated with UX/UI designers for an **intuitive user experience**.
+    - Optimized app performance for **speed and reliability**.
 - **ORBCOMM Installation for HLAG** | *Orbcomm* | [Play Store](https://play.google.com/store/apps/details?id=com.orbcomm.hapag_lloyd) | [App Store](https://apps.apple.com/ca/app/orbcomm-installation-for-hlag/id1636718140)
     - Developed a tool for pairing CT1000 device containers, optimizing installation speed and reliability.
     - Utilized Bluetooth and device communication protocols for seamless integration.
