@@ -1,6 +1,7 @@
 # Meet Vora
 
 Mobile Application Developer
+Android | iOS | KMP
 Ottawa, ON | meetvora1994@gmail.com
 [Portfolio](https://meetvora1994.github.io/) | [LinkedIn](https://www.linkedin.com/in/meetvora1994/) | [GitHub](https://github.com/meetVora1994) | [StackOverflow](https://stackoverflow.com/users/5373110/meet-vora) | [Medium](https://medium.com/@meetvora1994)
 
