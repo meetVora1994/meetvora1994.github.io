@@ -63,7 +63,7 @@ export default function Portfolio() {
             </div>
 
             {/* Tab Bar */}
-            <div className="h-16 bg-gray-100 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 flex items-center justify-between absolute bottom-0 w-full px-2">
+            <div className="h-16 bg-gray-100/80 dark:bg-gray-800/80 border-t border-gray-200 dark:border-gray-700 flex items-center justify-between absolute bottom-0 w-full px-2 backdrop-blur-xs">
                 <TabButton
                     icon={<Home size={20}/>}
                     label="Home"
@@ -108,10 +108,11 @@ export default function Portfolio() {
 
     // On desktop, render the phone frame with the app content inside
     return (
-        <div className="min-h-screen bg-gray-100 dark:bg-gray-950 flex items-center justify-center p-4">
+        <div className="min-h-screen bg-gray-100 dark:bg-gray-950 flex items-center justify-center p-4 absolute inset-0 -z-10 h-full w-full bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] dark:bg-[linear-gradient(to_right,#333333_1px,transparent_1px),linear-gradient(to_bottom,#333333_1px,transparent_1px)] bg-[size:4rem_4rem]">
+            <text color={"#797979"}/>
             <div className="max-w-[375px] w-full">
                 {/* iPhone Frame */}
-                <div className="bg-black rounded-[40px] p-2 shadow-xl">
+                <div className="bg-black dark:bg-[#333333] rounded-[40px] p-2 shadow-xl">
                     {/* Status Bar */}
                     <div className="h-8 bg-gray-800 dark:bg-black text-white flex items-center justify-between px-6 text-xs rounded-t-[40px]">
                         <span>9:41</span>
@@ -164,7 +165,7 @@ function TabButton({
 
 function ScreenHeader({title, goBack}: { title: string; goBack?: () => void }) {
     return (
-        <div className="p-4 border-b border-gray-200 dark:border-gray-700 flex items-center sticky top-0 z-10 bg-white dark:bg-gray-900">
+        <div className="p-4 border-b border-gray-200 dark:border-gray-700 flex items-center sticky top-0 z-10 bg-white/50 dark:bg-gray-900/50 backdrop-blur-xs">
             {goBack && (
                 <button onClick={goBack} className="mr-2 text-gray-800 dark:text-gray-200">
                     <ArrowLeft size={20}/>
@@ -328,7 +329,7 @@ function ExperienceScreen({goBack}: { goBack: () => void }) {
         {
             company: "Freelancer",
             position: "Mobile Application Developer",
-            period: "June 2019 - November 2019",
+            period: "June 2019 - Nov. 2019",
             responsibilities: [
                 "Developed a news app using ReactNative with an intuitive UI and smooth performance",
                 "Delivered high-quality applications within deadlines while incorporating client feedback",
@@ -337,7 +338,7 @@ function ExperienceScreen({goBack}: { goBack: () => void }) {
         {
             company: "Ecosmob Pvt. Ltd.",
             position: "Mobile Application Developer",
-            period: "September 2018 - June 2019",
+            period: "Sept. 2018 - June 2019",
             responsibilities: [
                 "Built VoIP-based Android applications using Kotlin, optimizing call quality and performance",
                 "Trained junior developers and contributed to the hiring process for Android engineers",
@@ -346,7 +347,7 @@ function ExperienceScreen({goBack}: { goBack: () => void }) {
         {
             company: "Hodusoft Pvt. Ltd.",
             position: "Mobile Application Developer",
-            period: "May 2016 - September 2018",
+            period: "May 2016 - Sept. 2018",
             responsibilities: [
                 "Developed an education-based mobile app for schools in Java, later migrating it to Kotlin (MVVM)",
                 "Created a driver application with real-time school bus tracking using Firebase and Google Maps API",
