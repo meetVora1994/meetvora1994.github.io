@@ -54,7 +54,7 @@ export default function Portfolio() {
         >
 
             {/* App Content */}
-            <div className="h-full overflow-y-auto pb-5">
+            <div className="h-full overflow-y-auto pb-15">
                 {activeScreen === "home" && <HomeScreen navigateTo={navigateTo}/>}
                 {activeScreen === "skills" && <SkillsScreen goBack={goBack}/>}
                 {activeScreen === "experience" && <ExperienceScreen goBack={goBack}/>}
@@ -113,7 +113,7 @@ export default function Portfolio() {
                 {/* iPhone Frame */}
                 <div className="bg-black rounded-[40px] p-2 shadow-xl">
                     {/* Status Bar */}
-                    <div className="h-8 bg-gray-800 dark:bg-black text-white flex items-center justify-between px-6 text-xs">
+                    <div className="h-8 bg-gray-800 dark:bg-black text-white flex items-center justify-between px-6 text-xs rounded-t-[40px]">
                         <span>9:41</span>
                         <div className="flex items-center gap-1">
                             <span className="h-2 w-2 rounded-full bg-white"></span>
