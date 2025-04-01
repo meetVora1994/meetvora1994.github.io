@@ -4,6 +4,7 @@ import type React from "react"
 
 import {useState, useEffect} from "react"
 import {Home, Briefcase, GraduationCap, Code, Mail, ArrowLeft, FileText} from "lucide-react"
+import Image from 'next/image'
 import {cn} from "@/lib/utils"
 
 export default function Portfolio() {
@@ -174,13 +175,25 @@ function ScreenHeader({title, goBack}: { title: string; goBack?: () => void }) {
     )
 }
 
+function ProfilePhoto() {
+    return (
+        <div className="w-24 h-24 bg-blue-200 rounded-full mb-4 flex items-center justify-center text-white text-2xl font-bold">
+            <Image
+                src="/profile.png"
+                width={100}
+                height={100}
+                className="rounded-full"
+                alt="profile photo"
+            />
+        </div>
+    )
+}
+
 function HomeScreen({navigateTo}: { navigateTo: (screen: string) => void }) {
     return (
         <div className="h-full">
             <div className="p-6 flex flex-col items-center text-center">
-                <div className="w-24 h-24 bg-blue-500 rounded-full mb-4 flex items-center justify-center text-white text-2xl font-bold">
-                    MV
-                </div>
+                <ProfilePhoto/>
 
                 <h1 className="text-2xl font-bold mb-1 text-gray-900 dark:text-white">Meet Vora</h1>
                 <h2 className="text-blue-500 dark:text-blue-400 font-medium mb-4">Mobile Application Developer</h2>
@@ -427,9 +440,7 @@ function ContactScreen({goBack}: { goBack: () => void }) {
         <div>
             <ScreenHeader title="Contact" goBack={goBack}/>
             <div className="p-6 flex flex-col items-center">
-                <div className="w-20 h-20 bg-blue-500 rounded-full mb-4 flex items-center justify-center text-white text-xl font-bold">
-                    MV
-                </div>
+                <ProfilePhoto/>
                 <h2 className="text-xl font-bold mb-1 text-gray-900 dark:text-white">Meet Vora</h2>
                 <p className="text-blue-500 dark:text-blue-400 font-medium mb-6">Mobile Application Developer</p>
 
