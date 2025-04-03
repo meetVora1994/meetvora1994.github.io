@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
     title: "Meet Vora | Mobile Application Developer",
     description: "Experienced mobile developer specializing in Kotlin, Swift, and React Native.",
+    metadataBase: new URL("https://meetvora1994.github.io"),
     openGraph: {
         images: '/opengraph-image.png',
     },
