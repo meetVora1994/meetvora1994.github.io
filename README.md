@@ -1,11 +1,9 @@
-## Hello there! My name is Meet Vora.
+## Welcome to my portfolio!
 
-I made this cool portfolio using [Next.js](https://nextjs.org/) - such a cool framework for React. Feel free to clone this if you like it.
+I made this portfolio using [Next.js](https://nextjs.org/) - such a cool framework for React. Feel free to clone this if you like it.
 
 Here is the live version: https://meetvora1994.github.io/
 
-I am an experienced Mobile Application Developer who loves to build mobile application. I can make native Android, native iOS apps; as well as cross-platform apps using frameworks such as ReactNative & KMP.
+![Portfolio Website Image](/app/opengraph-image.png "Portfolio Website Image")
 
-Feel free to reach out: meetvora1994@icloud.com
-
-[Portfolio](https://meetvora1994.github.io/) | [LinkedIn](https://www.linkedin.com/in/meetvora1994/) | [GitHub](https://github.com/meetVora1994) | [StackOverflow](https://stackoverflow.com/users/5373110/meet-vora) | [Medium](https://medium.com/@meetvora1994)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/meetvora1994) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/5373110) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:meetvora1994@icloud.com) 
