@@ -199,7 +199,7 @@ function HomeScreen({ navigateTo }: { navigateTo: (screen: string) => void }) {
                 <h1 className="text-2xl font-bold mb-1 text-gray-900 dark:text-white">Meet Vora</h1>
                 <h2 className="text-blue-500 dark:text-blue-400 font-medium mb-4">Mobile Application Developer</h2>
                 <p className="text-gray-600 dark:text-gray-300 mb-6">
-                    Experienced mobile developer specializing in Kotlin, Swift, and cross-platform development.
+                    Experienced mobile developer specializing in Kotlin, Swift, and React Native.
                 </p>
 
                 <div className="grid grid-cols-2 gap-4 w-full">

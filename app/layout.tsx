@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Meet Vora | Mobile Application Developer",
-  description: "Meet Vora | Experienced mobile developer specializing in Kotlin, Swift, and cross-platform development such as React Native, KMP.",
+    title: "Meet Vora | Mobile Application Developer",
+    description: "Experienced mobile developer specializing in Kotlin, Swift, and React Native.",
+    openGraph: {
+        images: '/opengraph-image.png',
+    },
 };
 
 export default function RootLayout({
