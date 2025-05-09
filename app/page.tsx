@@ -610,11 +610,11 @@ function ContactScreen({goBack}: { goBack: () => void }) {
 
                 <div className="w-full space-y-4">
                     <a
-                        href="mailto:meetvora1994@icloud.com"
+                        href="mailto:meetvora1994@gmail.com"
                         className="flex items-center p-4 bg-gray-100 dark:bg-gray-800 rounded-xl hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors text-gray-800 dark:text-gray-200"
                     >
                         <Mail className="text-blue-500 dark:text-blue-400 mr-3" size={20}/>
-                        <span>meetvora1994@icloud.com</span>
+                        <span>meetvora1994@gmail.com</span>
                     </a>
 
                     <a
