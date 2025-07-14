@@ -199,7 +199,7 @@ function HomeScreen({ navigateTo }: { navigateTo: (screen: string) => void }) {
                 <h1 className="text-2xl font-bold mb-1 text-gray-900 dark:text-white">Meet Vora</h1>
                 <h2 className="text-blue-500 dark:text-blue-400 font-medium mb-4">Mobile Application Developer</h2>
                 <p className="text-gray-600 dark:text-gray-300 mb-6">
-                    Experienced mobile developer specializing in Kotlin, Swift, and React Native.
+                    Experienced mobile developer specializing in Kotlin, Swift, and Kotlin Multiplatform.
                 </p>
 
                 <div className="grid grid-cols-2 gap-4 w-full">
@@ -265,7 +265,7 @@ function SkillsScreen({goBack}: { goBack: () => void }) {
                 "Java",
                 "JavaScript",
                 "TypeScript",
-                "ReactNative",
+                "Kotlin Multiplatform",
             ],
         },
         {
@@ -479,7 +479,9 @@ function ExperienceScreen({goBack}: { goBack: () => void }) {
             position: "Mobile Application Developer",
             period: "June 2019 - Nov. 2019",
             responsibilities: [
-                "Developed a news app using ReactNative with an intuitive UI and smooth performance",
+                "Developed a local news app with intuitive UI and smooth performance",
+                "Native Android App for the best performance",
+                "Used MVVM + RoomDB for offline caching",
                 "Delivered high-quality applications within deadlines while incorporating client feedback",
             ],
         },
